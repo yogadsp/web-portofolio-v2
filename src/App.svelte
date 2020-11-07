@@ -11,7 +11,7 @@
 <Router>
  <nav class="nav lato-font justify-content-center">
     <a class="nav-link" href="/">home</a>
-    <a class="nav-link" href="portfolio">portfolio</A>
+    <a class="nav-link" href="portfolio">portfolio</a>
     <a class="nav-link" href="others">others</a>
     <!-- <Link to="detaill">detail</Link> --> <!-- test page -->
   </nav>

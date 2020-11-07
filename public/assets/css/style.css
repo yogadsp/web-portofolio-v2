@@ -22,6 +22,10 @@ body {
 	text-decoration: underline;
 }
 
+.nav-link:visited {
+	color: #EF233C;
+}
+
 nav .active {
 	text-decoration: underline;
 }

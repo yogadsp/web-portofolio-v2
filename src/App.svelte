@@ -10,9 +10,9 @@
 <!-- navigation menu custom -->
 <Router>
  <nav class="nav lato-font justify-content-center">
-    <Link to="/">home</Link>
-    <Link to="portfolio">portfolio</Link>
-    <Link to="others">others</Link>
+    <a class="nav-link" href="/">home</a>
+    <a class="nav-link" href="portfolio">portfolio</A>
+    <a class="nav-link" href="others">others</a>
     <!-- <Link to="detaill">detail</Link> --> <!-- test page -->
   </nav>
   <div>

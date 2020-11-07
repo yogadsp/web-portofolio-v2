@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "simadok",
+    "title": "Sistem Manajemen Dokumen ICOSITER",
+    "thumbnail": "simadok1.png",
+    "description": "Web-based system which is useful for managing ICOSITER documents in the form of journals.",
+    "ssNumber" : 6,
+    "detail": "<p>The International Conference on Science, Infrastructure Technology and Regional Development (IcoSiter) is an annual international conference held at Institut Teknologi Sumatera. In its implementation, there is a journal collection procession to the committee. This activity raises a problem when conducting a journal recap by the committee. The web-based Simadok Icositer is here to solve this problem with the following features: <ul> <li>Adding a journal.</li> <li>Change journal information.</li> <li>Delete journal.</li> <li>Sorting journals.</li> <li>Adding an IcoSiter activity gallery.</li> </ul> Team : <ul> <li>Mahesa Darma Satria (Project Manager)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> <li>Fardiansyah S. Harahap (Web Designer)</li> <li>Bayu Winnie Arini Napitupulu (Documentation)</li> <li>Rina Katrina Naibaho (Documentation)</li> <li>Pasha Abdul Khalid (Front-end Programmer)</li> </ul> Tools : Codeigniter 3, MySQL 5, DataTables 1.18, jQuery, AJAX "
+  },
+  {
+    "id": "2",
+    "name": "dhasanah",
+    "title": "D'Hasanah Booking",
+    "thumbnail": "dhasanah1.png",
+    "description": "Web-based system which is useful for recording customers who want to order housing units at D'Hasanah.",
+    "ssNumber" : 8,
+    "detail": "<p>D'hasanah web booking is a system built to record customers who want to book available housing units. Customers who want to make a booking are required to enter several files, then the admin will assess whether the customer can book or not. On this website there are also several additional features such as checking the booking number whether the booking is accepted or rejected and adding an admin account. <br><br>Team: <ul> <li>Gilang Atma Fika (Front-end Programmer)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> </ul> Tools : PHP 7 (Native), MySQL 5, DataTables 1.18 </p>"
+  },
+  {
+    "id": "3",
+    "name": "laporinaja",
+    "title": "Laporin Aja",
+    "thumbnail": "laporinaja1.png",
+    "description": "Web-based system which is useful for response services regarding loss information and damage reports to facilities on the ITERA (Institut Teknologi Sumatera) campus.",
+    "ssNumber" : 8,
+    "detail": "<p>Laporin Aja is a web that contains response services regarding information on loss and damage reports to facilities on the ITERA campus. This website contains a feature that can report ITERA activists' responses about the facilities and report the discovery or loss of items. Another feature of this website is the presence of Live Chat which can be used to report missing items or damage to facilities which will be immediately responded by the admin. Furthermore, the admin will respond by immediately following up the report by giving an announcement on the website or reporting to the authorities at ITERA. <br><br>Team : <ul> <li>Yoga Dwi Septana (Back-end Programmer)</li> <li>Fadila Eka Noperta (Documentation)</li> <li>Hendy Prasetya (Front-end Programmer)</li> <li>Dewi Fidrianingrum (Front-end Programmer)</li> <li>Meidiarni Kurnia Dewi (Web Designer)</li> <li>Muhammad Farhan (Back-end Programmer)</li> <li>Mu’minatul Faizah (Documentation)</li> </ul> Tools : Codeigniter 3, MySQL 5, jQuery, AJAX </p>"
+  },
+  {
+    "id": "4",
+    "name": "astener",
+    "title": "Astronaut The Cleaner",
+    "thumbnail": "astener1.png",
+    "description": "Windows game built on Unity with the theme of Global Warming.",
+    "ssNumber" : 4,
+    "detail": "<p>Astronaut the cleaner is a PC game built using Unity. In this game, players are required to destroy trash on earth by shooting lasers to achieve the highest score, besides that there is a reduction in the score if the laser hits humans. <br><br>Team : <ul> <li>Dean Christopher (Game Artist)</li> <li>Dewi Fidrianingrum (Game Designer)</li> <li>Meidiarni Kurnia Dewi (Audio Engineer)</li> <li>Yoga Dwi Septana (Game Programmer)</li> </ul> Tools : Unity </p>"
+  },
+  {
+    "id": "5",
+    "name": "trashbin",
+    "title": "Automatic Trash Bin Prototype",
+    "thumbnail": "trashbin1.png",
+    "description": "Internet of Things-based system that connect to trash bin, Android application and web server.",
+    "ssNumber" : 3,
+    "detail": "<p>Prototype automatic trash bin was placed in each house. Waste that can be sorted consists of vegetables, fruits, paper, cardboard, plastics and metals. Sorting is assisted by a cloud service, namely Amazon Image Rekognition, which is able to recognize various objects based on images without prior training. In addition to sorting waste, the prototype can also detect whether the trash can is full or not. The Android application displays trash bin info consisting of its location and condition. </p> Tools : <ul> <li>Mobile : Android Studio</li> <li>Web Server : ExpressJS, Amazon Image Rekognition, Azure Virtual Machine, JSON, MQTT</li> <li>Hardware Compiler : Arduino IDE</li> </ul>"
+  }
+]

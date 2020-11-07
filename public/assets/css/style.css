@@ -1,0 +1,90 @@
+body {
+	background: url(../img/geometry.png) center fixed;
+}
+
+.title-font {
+	font-family: 'Lato', sans-serif;
+}
+
+.desc-font {
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+.nav-link {
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: #EF233C;
+	letter-spacing: 0.2em;
+}
+
+.nav-link:hover {
+	color: #EF233C;
+	text-decoration: underline;
+}
+
+nav .active {
+	text-decoration: underline;
+}
+
+.home-content {
+	text-align: center;
+}
+
+.home-content .title-font {
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #EF233C;
+}
+
+/* for logo account */
+.akun-container {
+	margin-top: 2%;
+	text-align: center;
+}
+
+.akun-container img {
+	height: 50px;
+}
+
+.footer-container {
+	text-align: center;
+	/*background-color: #fff;*/
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: 2%;
+}
+
+.port-container {
+	text-align: center;
+}
+
+.list-port {
+	margin: 5% 0;
+}
+
+.list-port a {
+	color: black;
+}
+
+.list-port img {
+	/* resize image fit to div container */
+	height: 162px;
+	max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+    /* make border with thin shadow */
+    box-shadow:0.1px 0.1px 2px 0.1px grey;
+}
+
+/* for video portofolio */
+.list-port iframe {
+	height: 162px;
+	max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;	
+}
+
+.desc-port {
+	margin-top: 4%;
+}

@@ -45,7 +45,9 @@
 	  	  {#each Array(data[i].ssNumber) as _,j} <!-- loop at data[i].ssNumber times -->
 			<div class="col-md-4">
 				<div class="list-port">
-				  <a href="/assets/img/portfolio/{data[i].name}{j+1}.png">
+				  <!-- noopener and noreferrer is for security reason -->
+				  <!-- https://mathiasbynens.github.io/rel-noopener/#hax -->
+				  <a target="_blank" rel="noopener noreferrer" href="/assets/img/portfolio/{data[i].name}{j+1}.png">
 				    <img src="/assets/img/portfolio/{data[i].name}{j+1}.png">
 				  </a>
 				</div>
@@ -55,7 +57,7 @@
 		    <div class="col-md-4">
 				<div class="list-port">
 				  <iframe src="https://drive.google.com/file/d/1UvI9nvrZ7DX82HKQSkjrhbPagVwDgkfh/preview"></iframe>
-					</div>
+				</div>
 			</div>
 
 			<div class="col-md-4">

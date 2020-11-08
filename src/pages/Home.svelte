@@ -27,12 +27,18 @@
   </div>
   <div class="row akun-container">
     <div class="col-md-12">
-        <a href="https://linkedin.com/in/yogaseptana">
-          <img src="assets/img/icon/linkedin.svg">
-        </a>
-        <a href="https://github.com/yogadsp">
-          <img src="assets/img/icon/github.svg">
-        </a>
+      <a target="_blank" href="https://linkedin.com/in/yogaseptana">
+        <img src="assets/img/icon/linkedin.svg" alt="LinkedIn Logo" title="LinkedIn">
+      </a>
+      <a target="_blank" href="https://github.com/yogadsp">
+        <img src="assets/img/icon/github.svg" alt="Github Logo" title="Github">
+      </a>
+      <a target="_blank" href="https://www.hackerrank.com/yogaseptana">
+        <img src="assets/img/icon/hackerrank.png" alt="HackerRank Logo" title="HackerRank">
+      </a>
+      <a target="_blank" href="https://profile.codersrank.io/user/yogadsp">
+        <img src="assets/img/icon/codersrank.svg" alt="CodersRank Logo" title="CodersRank">
+      </a>
     </div>
   </div>
   <Footer /> <!-- load footer page -->

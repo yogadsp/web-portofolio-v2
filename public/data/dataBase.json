@@ -43,5 +43,14 @@
     "description": "Internet of Things-based system that connect to trash bin, Android application and web server.",
     "ssNumber" : 3,
     "detail": "<p>Prototype automatic trash bin was placed in each house. Waste that can be sorted consists of vegetables, fruits, paper, cardboard, plastics and metals. Sorting is assisted by a cloud service, namely Amazon Image Rekognition, which is able to recognize various objects based on images without prior training. In addition to sorting waste, the prototype can also detect whether the trash can is full or not. The Android application displays trash bin info consisting of its location and condition. </p> Tools : <ul> <li>Mobile : Android Studio</li> <li>Web Server : ExpressJS, Amazon Image Rekognition, Azure Virtual Machine, JSON, MQTT</li> <li>Hardware Compiler : Arduino IDE</li> </ul>"
+  },
+  {
+    "id": "6",
+    "name": "sakip",
+    "title": "e-Sakip Pesawaran",
+    "thumbnail": "sakip1.png",
+    "description": "An online-based institute performance accountability system in Pesawaran.",
+    "ssNumber" : 6,
+    "detail": "<p>E-Sakip is an online-based institute performance accountability system in Pesawaran. This application can process performance achievements, performance realizations and export related reports from each institute in Pesawaran. <br><br>Team: <ul> <li>Dean Christopher (Front-end Programmer)</li> <li>Miftakhul Aziz (Back-end Programmer)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> </ul> Tools : Codeigniter, jQuery, Bootstrap, MySQL </p>"
   }
 ]

@@ -51,6 +51,6 @@
     "thumbnail": "sakip1.png",
     "description": "An online-based institute performance accountability system in Pesawaran.",
     "ssNumber" : 6,
-    "detail": "<p>E-Sakip is an online-based institute performance accountability system in Pesawaran. This application can process performance achievements, performance realizations and export related reports from each institute in Pesawaran. <br><br>Team: <ul> <li>Dean Christopher (Front-end Programmer)</li> <li>Miftakhul Aziz (Back-end Programmer)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> </ul> Tools : Codeigniter, jQuery, Bootstrap, MySQL </p>"
+    "detail": "<p>E-Sakip is an online-based institute performance accountability system in Pesawaran. This application can process performance achievements, performance realizations and export related reports from each institute in Pesawaran. Link : <a href="https://sakip.pesawarankab.go.id">sakip.pesawarankab.go.id</a> <br><br>Team: <ul> <li>Dean Christopher (Front-end Programmer)</li> <li>Miftakhul Aziz (Back-end Programmer)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> </ul> Tools : Codeigniter, jQuery, Bootstrap, MySQL </p>"
   }
 ]

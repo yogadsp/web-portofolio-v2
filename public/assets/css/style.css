@@ -92,3 +92,10 @@ nav .active {
 .desc-port {
 	margin-top: 4%;
 }
+
+.list-port-desc {
+	margin-top: 4%;
+	text-align: center;
+	font-size: 13px;
+	color: darkgrey;
+}

@@ -16,7 +16,6 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "@fancyapps/ui": "^4.0.31",
     "sirv-cli": "^1.0.0",
     "svelte-routing": "^1.4.2"
   }

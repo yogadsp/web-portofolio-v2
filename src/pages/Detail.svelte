@@ -1,8 +1,6 @@
 <script>
   import Footer from './Footer.svelte';
   import { fade, fly } from 'svelte/transition';
-  import { Fancybox } from "@fancyapps/ui";
-  import "fancyapps/ui/dist/fancybox.css";
   let pageName = "Detail";
 
   // json file is locate at svelte-project/public/..
@@ -16,21 +14,6 @@
 
   // -1 because there are bug after click from Portfolio.svelte the value i is +1
   let i = sessionStorage.getItem('portId') - 1;
-
-//   Fancybox.bind('[data-fancybox="portfoli"]', {
-//         infinite: false
-//       });
-Fancybox.bind("[data-fancybox=portofolio]", {
-  on: {
-    load: (fancybox, slide) => {
-      console.log(`#${slide.index} slide is loaded!`);
-      console.log(
-        `This slide is selected: ${fancybox.getSlide().index === slide.index}`
-      );
-    },
-  },
-});
-
 
 </script>
 
@@ -64,34 +47,28 @@ Fancybox.bind("[data-fancybox=portofolio]", {
 				<div class="list-port">
 				  <!-- noopener and noreferrer is for security reason -->
 				  <!-- https://mathiasbynens.github.io/rel-noopener/#hax -->
-				  
-				  <a data-fancybox="portfolio" data-src="/assets/img/portfolio/{data[i].name}{j+1}.png" data-caption="Hello world">
+				  <a target="_blank" rel="noopener noreferrer" href="/assets/img/portfolio/{data[i].name}{j+1}.png">
 				    <img src="/assets/img/portfolio/{data[i].name}{j+1}.png">
 				  </a>
-				  <div class="list-port-desc">{data[i].imageDescription[j]}</div>
 				</div>
 			</div>
 		  {/each}
-		  <!-- if project name is Automatic Trash Bin Prototype -->
 		  {#if data[i].id == 5}
 		    <div class="col-md-4">
 				<div class="list-port">
 				  <iframe src="https://drive.google.com/file/d/1UvI9nvrZ7DX82HKQSkjrhbPagVwDgkfh/preview"></iframe>
-				  <div class="list-port-desc">Adding Trash Bin Location Info</div>
 				</div>
 			</div>
 
 			<div class="col-md-4">
 				<div class="list-port">
 				  <iframe src="https://drive.google.com/file/d/1bToH4PgOOLRisySqVOWRrz8PHFkl7YlJ/preview"></iframe>
-				  <div class="list-port-desc">Sorting Organic Trash</div>
 				</div>
 			</div>
 
 			<div class="col-md-4">
 				<div class="list-port">
 				  <iframe src="https://drive.google.com/file/d/1lLTRVeA4Lu0JygRHw8w66jxWmd5BQvSc/preview"></iframe>
-				  <div class="list-port-desc">Sorting Non-Organic Trash</div>
 				</div>
 			</div>
 		  {:else}

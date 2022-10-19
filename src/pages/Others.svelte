@@ -12,8 +12,8 @@
     
 <div class="container" transition:fade="{{duration: 450}}">
   <div class="row">
-    <div class="col-md-12 home-content">
-      <h1 class="title-font">Others</h1>
+    <div class="col-md-12 home-content primary-font-color">
+      <h1 class="title-font primary-font-color">Others</h1>
       <div style="margin-bottom: 4%;"></div>
     </div>
   </div>

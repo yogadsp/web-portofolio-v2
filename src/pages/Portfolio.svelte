@@ -19,7 +19,7 @@
     indeks = document.getElementsByClassName("item")[i].id;
 
     // save id to cookies or session in php
-    sessionStorage.setItem('portId',indeks);
+    sessionStorage.setItem('portId', indeks);
   }
 
 </script>
@@ -38,8 +38,8 @@
 
 <div class="container" in:fade="{{duration: 450}}"> <!-- start container -->
   <div class="row">
-    <div class="col-md-12 home-content">
-      <h1 class="title-font">My Portfolio</h1>
+    <div class="col-md-12 home-content primary-font-color">
+      <h1 class="title-font primary-font-color">My Portfolio</h1>
       <div style="margin-bottom: 4%;"></div>
     </div>
   </div>
@@ -51,7 +51,7 @@
           <div class="col-md-4" in:fly={{y:50,delay:450}}>
             <div class="list-port desc-font">
               <a class="item" id="{item.id}" href="portfolio/detail" on:click={() => getId(i)}>
-                <img src="assets/img/portfolio/{item.thumbnail}">
+                <img alt="{item.title}" src="assets/img/portfolio/{item.thumbnail}">
                 <div class="desc-port">
                   <b>{item.title}</b>
                 </div>

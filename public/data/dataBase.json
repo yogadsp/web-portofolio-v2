@@ -2,47 +2,85 @@
   {
     "id": "1",
     "name": "simadok",
-    "title": "Sistem Manajemen Dokumen ICOSITER",
+    "title": "ICOSITER Document Management System",
     "thumbnail": "simadok1.png",
-    "description": "Web-based system which is useful for managing ICOSITER documents in the form of journals.",
+    "description": "A web-based system that manages ICOSITER documents in the form of journals.",
     "ssNumber" : 6,
-    "detail": "<p>The International Conference on Science, Infrastructure Technology and Regional Development (IcoSiter) is an annual international conference held at Institut Teknologi Sumatera. In its implementation, there is a journal collection procession to the committee. This activity raises a problem when conducting a journal recap by the committee. The web-based Simadok Icositer is here to solve this problem with the following features: <ul> <li>Adding a journal.</li> <li>Change journal information.</li> <li>Delete journal.</li> <li>Sorting journals.</li> <li>Adding an IcoSiter activity gallery.</li> </ul> Team : <ul> <li>Mahesa Darma Satria (Project Manager)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> <li>Fardiansyah S. Harahap (Web Designer)</li> <li>Bayu Winnie Arini Napitupulu (Documentation)</li> <li>Rina Katrina Naibaho (Documentation)</li> <li>Pasha Abdul Khalid (Front-end Programmer)</li> </ul> Tools : Codeigniter 3, MySQL 5, DataTables 1.18, jQuery, AJAX "
+    "imageDescription" : [
+      "Home Page",
+      "Journal List",
+      "Journal Addition Form",
+      "Gallery Photo Addition Form",
+      "User Addition Form",
+      "Gallery Photo List"
+    ],
+    "detail": "<p>The International Conference on Science, Infrastructure Technology and Regional Development (IcoSiter) is an annual international conference held at Institut Teknologi Sumatera. In its implementation, there is a journal collection procession to the committee. As a result, the problem appears when conducting a journal recap by the committee. The web-based Simadok Icositer is here to solve this problem with the following features: <ul> <li>Adding a journal.</li> <li>Change journal information.</li> <li>Delete journal.</li> <li>Sorting journals.</li> <li>Adding an IcoSiter activity gallery.</li> </ul> Team : <ul> <li>Mahesa Darma Satria (Project Manager)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> <li>Fardiansyah S. Harahap (Web Designer)</li> <li>Bayu Winnie Arini Napitupulu (Documentation)</li> <li>Rina Katrina Naibaho (Documentation)</li> <li>Pasha Abdul Khalid (Front-end Programmer)</li> </ul> Tools : Codeigniter 3, MySQL 5, DataTables 1.18, jQuery, AJAX "
   },
   {
     "id": "2",
     "name": "dhasanah",
     "title": "D'Hasanah Booking",
     "thumbnail": "dhasanah1.png",
-    "description": "Web-based system which is useful for recording customers who want to order housing units at D'Hasanah.",
+    "description": "A web-based system is used for recording customers who want to order housing units at D'Hasanah.",
     "ssNumber" : 8,
-    "detail": "<p>D'hasanah web booking is a system built to record customers who want to book available housing units. Customers who want to make a booking are required to enter several files, then the admin will assess whether the customer can book or not. On this website there are also several additional features such as checking the booking number whether the booking is accepted or rejected and adding an admin account. <br><br>Team: <ul> <li>Gilang Atma Fika (Front-end Programmer)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> </ul> Tools : PHP 7 (Native), MySQL 5, DataTables 1.18 </p>"
+    "imageDescription" : [
+      "Home Page",
+      "Identity Form",
+      "File Form",
+      "Booking Check by Input the Booking Number",
+      "Admin Login",
+      "Booking List",
+      "Admin Addition Form",
+      "Booking Detail Page"
+    ],
+    "detail": "<p>D'hasanah web booking is a system built to record customers who want to book available housing units. Customers who will make a booking are required to enter several files, then the admin will assess whether the customer can book or not. On this website, there are also several additional features like checking the booking number whether the booking is accepted or rejected, and adding an admin account. <br><br>Team: <ul> <li>Gilang Atma Fika (Front-end Programmer)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> </ul> Tools : PHP 7 (Native), MySQL 5, DataTables 1.18 </p>"
   },
   {
     "id": "3",
     "name": "laporinaja",
     "title": "Laporin Aja",
     "thumbnail": "laporinaja1.png",
-    "description": "Web-based system which is useful for response services regarding loss information and damage reports to facilities on the ITERA (Institut Teknologi Sumatera) campus.",
-    "ssNumber" : 8,
-    "detail": "<p>Laporin Aja is a web that contains response services regarding information on loss and damage reports to facilities on the ITERA campus. This website contains a feature that can report ITERA activists' responses about the facilities and report the discovery or loss of items. Another feature of this website is the presence of Live Chat which can be used to report missing items or damage to facilities which will be immediately responded by the admin. Furthermore, the admin will respond by immediately following up the report by giving an announcement on the website or reporting to the authorities at ITERA. <br><br>Team : <ul> <li>Yoga Dwi Septana (Back-end Programmer)</li> <li>Fadila Eka Noperta (Documentation)</li> <li>Hendy Prasetya (Front-end Programmer)</li> <li>Dewi Fidrianingrum (Front-end Programmer)</li> <li>Meidiarni Kurnia Dewi (Web Designer)</li> <li>Muhammad Farhan (Back-end Programmer)</li> <li>Mu’minatul Faizah (Documentation)</li> </ul> Tools : Codeigniter 3, MySQL 5, jQuery, AJAX </p>"
+    "description": "A web-based system that is useful for response services about found or lost goods and reports to facilities damage on the ITERA (Institut Teknologi Sumatera) campus.",
+    "ssNumber" : 7,
+    "imageDescription" : [
+      "Home Page",
+      "List of Found or Lost Goods",
+      "Facilities Report Form",
+      "Admin Dashboard",
+      "List of Found or Lost Goods in Admin Page *Admin must change status to \"Posted\" to show the reports that were input by users.",
+      "Facilities Report List",
+      "Users List"
+    ],
+    "detail": "<p>Laporin Aja is a web that contains response services about the information on found or lost goods and reports on facilities damage on the ITERA campus. This website contains a feature that ITERA activists' can respond to about damaged facilities and report the found or lost goods. Another feature of this website is Live Chat which can be used to report found or lost goods and damaged facilities which will be immediately responded to by the admin. Furthermore, the admin will follow up on the report by giving an announcement on the website or reporting to the authorities at ITERA.<br><br>Team : <ul> <li>Yoga Dwi Septana (Back-end Programmer)</li> <li>Fadila Eka Noperta (Documentation)</li> <li>Hendy Prasetya (Front-end Programmer)</li> <li>Dewi Fidrianingrum (Front-end Programmer)</li> <li>Meidiarni Kurnia Dewi (Web Designer)</li> <li>Muhammad Farhan (Back-end Programmer)</li> <li>Mu’minatul Faizah (Documentation)</li> </ul> Tools : Codeigniter 3, MySQL 5, jQuery, AJAX </p>"
   },
   {
     "id": "4",
     "name": "astener",
     "title": "Astronaut The Cleaner",
     "thumbnail": "astener1.png",
-    "description": "Windows game built on Unity with the theme of Global Warming.",
+    "description": "A Windows game built on Unity with the theme of Global Warming.",
     "ssNumber" : 4,
-    "detail": "<p>Astronaut the cleaner is a PC game built using Unity. In this game, players are required to destroy trash on earth by shooting lasers to achieve the highest score, besides that there is a reduction in the score if the laser hits humans. <br><br>Team : <ul> <li>Dean Christopher (Game Artist)</li> <li>Dewi Fidrianingrum (Game Designer)</li> <li>Meidiarni Kurnia Dewi (Audio Engineer)</li> <li>Yoga Dwi Septana (Game Programmer)</li> </ul> Tools : Unity </p>"
+    "imageDescription" : [
+      "Start Screen",
+      "In-game Screen",
+      "Tutorial Screen",
+      "In-game Pause Screen"
+    ],
+    "detail": "<p>Astronaut the cleaner is a PC game built using Unity. In this game, players should destroy trash on earth by shooting lasers to achieve the highest score and be warned because there is a reduction in the score if the laser hits humans.<br><br>Team : <ul> <li>Dean Christopher (Game Artist)</li> <li>Dewi Fidrianingrum (Game Designer)</li> <li>Meidiarni Kurnia Dewi (Audio Engineer)</li> <li>Yoga Dwi Septana (Game Programmer)</li> </ul> Tools : Unity </p>"
   },
   {
     "id": "5",
     "name": "trashbin",
     "title": "Automatic Trash Bin Prototype",
     "thumbnail": "trashbin1.png",
-    "description": "Internet of Things-based system that connect to trash bin, Android application and web server.",
+    "description": "Internet of Things-based system that connects to a trash bin, Android application, and web server.",
     "ssNumber" : 3,
-    "detail": "<p>Prototype automatic trash bin was placed in each house. Waste that can be sorted consists of vegetables, fruits, paper, cardboard, plastics and metals. Sorting is assisted by a cloud service, namely Amazon Image Rekognition, which is able to recognize various objects based on images without prior training. In addition to sorting waste, the prototype can also detect whether the trash can is full or not. The Android application displays trash bin info consisting of its location and condition. </p> Tools : <ul> <li>Mobile : Android Studio</li> <li>Web Server : ExpressJS, Amazon Image Rekognition, Azure Virtual Machine, JSON, MQTT</li> <li>Hardware Compiler : Arduino IDE</li> </ul>"
+    "imageDescription" : [
+      "Logo",
+      "Splash Screen, Login Screen, Trash Bin List, Add Trash Bin Location",
+      "Prototype"
+    ],
+    "detail": "<p>A prototype of an automatic trash bin will place in each house. Trash sorted are vegetables, fruits, paper, cardboard, plastics, and metals. The trash sorting process assisted a cloud service (Amazon Image Rekognition), which can recognize various objects based on images without prior training. In addition to sorting waste, the prototype can also detect whether the trash bin is full or not. The prototype also connects to an Android application that can display the trash bin location and condition info.</p> Tools : <ul> <li>Mobile : Android Studio</li> <li>Web Server : ExpressJS, Amazon Image Rekognition, Azure Virtual Machine, JSON, MQTT</li> <li>Hardware Compiler : Arduino IDE</li> </ul>"
   },
   {
     "id": "6",
@@ -51,6 +89,126 @@
     "thumbnail": "sakip1.png",
     "description": "An online-based institute performance accountability system in Pesawaran.",
     "ssNumber" : 6,
-    "detail": "<p>E-Sakip is an online-based institute performance accountability system in Pesawaran. This application can process performance achievements, performance realizations and export related reports from each institute in Pesawaran. Link : <a href='https://sakip.pesawarankab.go.id' target='_blank'>sakip.pesawarankab.go.id</a> <br><br>Team: <ul> <li>Dean Christopher (Front-end Programmer)</li> <li>Miftakhul Aziz (Back-end Programmer)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> </ul> Tools : Codeigniter, jQuery, Bootstrap, MySQL </p>"
+    "imageDescription" : [
+      "Login Form",
+      "Department Admin Dashboard",
+      "Department Admin Dashboard (2)",
+      "Set the Department's Goals and Objectives",
+      "Set the Department's Performance Achievement",
+      "Set the Department's Strategic Plan"
+    ],
+    "detail": "<p>E-Sakip is an online-based institute performance accountability system in Pesawaran. This application can process performance achievements, performance realizations, and export-related reports from each institute in Pesawaran. <br><a href='https://sakip.pesawarankab.go.id' target='_blank'><b>Link</b></a> <br><br>Team: <ul> <li>Dean Christopher (Front-end Programmer)</li> <li>Miftakhul Aziz (Back-end Programmer)</li> <li>Yoga Dwi Septana (Back-end Programmer)</li> </ul> Tools : Codeigniter, jQuery, Bootstrap, MySQL </p>"
+  },
+  {
+    "id": "7",
+    "name": "mosys",
+    "title": "MOSYS",
+    "thumbnail": "mosys1.png",
+    "description": "A web-based application to supports sales on multiple business",
+    "ssNumber" : 6,
+    "imageDescription" : [
+      "Home Page",
+      "Sales Report",
+      "Stock Opname Report",
+      "Reports For Products That Have Reached The Stock Limit",
+      "Reports For Products That Have Empty Stock",
+      "Sales Profit and Loss Report"
+    ],
+    "detail": "<p>MOSYS is a Point of Sales (POS) application based in Metro City, Province of Lampung focused on MSMEs to get a better sales system at a more affordable price. My job is to build sales report features. I also updated existing features to meet the requirements of different users. <br><a href='https://mosys.id' target='_blank'><b>Link</b></a><br> Tools : PHP/Codeigniter 3, MySQL, jQuery</p>"
+  },
+  {
+    "id": "8",
+    "name": "optiklivina",
+    "title": "OPTIK LIVINA Information Management System",
+    "thumbnail": "optiklivina1.png",
+    "description": "A web-based application to supports sales on optical stores",
+    "ssNumber" : 7,
+    "imageDescription" : [
+      "Login Form",
+      "Admin Dashboard",
+      "Collection Report",
+      "Sales Product Report",
+      "Frame Product Retrieval Form for Marketing Staff",
+      "Sales Report from Each Marketing Staff",
+      "Detail Sales Report from Each Marketing Staff"
+    ],
+    "detail": "<p>This management information system is used for employees at Livina Optical Shop from staff level to management that supports all sales according to user requests. Optik Livina is a company engaged in the optics field with several branch stores spread across the province of Lampung. My job is to create and maintain new or existing features and ensure users can use them well. I am also responsible for custom hardware required by the business. <br><a href='https://optiklivina.com' target='_blank'><b>Link</b></a><br> Tools : PHP/Codeigniter 3, MySQL, jQuery</p>"
+  },
+  {
+    "id": "9",
+    "name": "plastik",
+    "title": "PLASTIK Information Management System",
+    "thumbnail": "plastik1.png",
+    "description": "A web-based application to supports sales on plastic and pastry stores",
+    "ssNumber" : 7,
+    "imageDescription" : [
+      "Login Form",
+      "Admin Dashboard",
+      "Tracking Stock of Products",
+      "Products Sales Statistic from Highest to Lowest Sold Rate",
+      "Set the Expired Products",
+      "Report of Unsold Products",
+      "Order Stock Form to be sent to Warehouse"
+    ],
+    "detail": "<p>This information management system is used by the staff to the management level to process the sales of plastic and pastry stores with several store branches spread throughout Lampung Province. Its features are a cash register, sales results analysis, stock management, product management, reports, and others. My job is to create and maintain new or existing features and ensure users can use them well. I am also responsible for custom hardware required by the business. <br><a href='https://saktiputra.com' target='_blank'><b>Link</b></a><br> Tools : PHP/Codeigniter 3, MySQL, jQuery </p>"
+  },
+  {
+    "id": "10",
+    "name": "atk",
+    "title": "Office Stationery Information Management System",
+    "thumbnail": "atk1.png",
+    "description": "A web-based application to manages office stationery",
+    "ssNumber" : 9,
+    "imageDescription" : [
+      "Login Form",
+      "Choose which Company to Manage",
+      "Admin Dashboard",
+      "CRUD of Stationery Category",
+      "CRUD of Stationery Unit",
+      "CRUD of Stationery Name and Set Its Unit",
+      "Set Unit and Minimal Stock of Stationery Items",
+      "Add or Less of Stock Stationery Items",
+      "Create Note for Employees who will use Stationery Items"
+    ],
+    "detail": "<p>This information management system is used to manage the existing office stationeries stock in the two companies. My job is to build this app from scratch with an existing web template view. Maintainance and building new features are also my job. <br><a href='https://api.livina.co/login' target='_blank'><b>Link</b></a><br> Tools : PHP/Laravel 8, MySQL, jQuery </p>"
+  },
+  {
+    "id": "11",
+    "name": "gemilang",
+    "title": "Gemilang App",
+    "thumbnail": "gemilang1.png",
+    "description": "A mobile-based application to support the marketing department of plastic and pastry store",
+    "ssNumber" : 5,
+    "imageDescription" : [
+      "Splash Screen",
+      "Search Products",
+      "Display Price List Product from All Branch Store",
+      "Display Sales Results from Store Branches Users who have Logged In Before",
+      "Filter Sales Results Between Two Dates"
+    ],
+    "detail": "<p>Gemilang App is a mobile-based application to display the stock, capital, and selling price for each item from the plastic and pastry branch store spread across the province of Lampung. Gemilang App is used by the marketing department, especially in fieldwork to easily find out the capital and selling price for each item. My job is to build a display to show the selling price for each item from each branch store in real-time connected to the main application for any changes. Showing sales turnover, sales profit, and items assets by day is also my job.<br><br> Tools : PHP/Codeigniter 3, MySQL, Flutter </p>"
+  },
+  {
+    "id": "12",
+    "name": "assalam",
+    "title": "ASSALAM APPS",
+    "thumbnail": "assalam1.png",
+    "description": "A web-based application to support many activities in an Islamic boarding school",
+    "ssNumber" : 12,
+    "imageDescription" : [
+      "Login Form",
+      "Admin Dashboard (Display the Number of Male and Female Student from Each Level, the Number of Grade, and the Number of Completeness Student Documents)",
+      "Admin Dashboard (Display Chart for the Number of Student from Each Level)",
+      "Admin Dashboard (Display Chart for the Number of Graduate Student from Each Gender and Chart for the Percentage of Completeness Student Bio)",
+      "Admin Dashboard (Display Chart for the Number of Active, In, and Out Students from Each Month of the School Year)",
+      "Admin Dashboard (Display Student Payment History and Users Activity Log)",
+      "Process Student Payment with Customized Discount or Debt",
+      "Display the Number of Students from All Grade each Month of the School Year",
+      "Add Deposit to Student Savings",
+      "CRUD of Letter Archive with Automatic Letter Number and Export for Outgoing Letter",
+      "Student Bill Report",
+      "Export Excel from Student Recapitulation This Month and The Previous Month (Display the Number of Active, In, and Out Students from Selected Month and Display the List of Out Students)"
+    ],
+    "detail": "<p>ASSALAM APPS is an information management system to support many activities in Islamic boarding schools. Its features are financial management, student management, and others. My job is to build new features and maintain them so the users can use them as well as possible.<br><a href='https://assalam.web.id' target='_blank'><b>Link</b></a><br> Tools : PHP/Laravel 7, MySQL, jQuery, Vue.js </p>"
   }
 ]

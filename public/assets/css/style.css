@@ -10,6 +10,10 @@ body {
 	/*font-family: 'Roboto', sans-serif;*/
 }
 
+.primary-font-color {
+	color: #EF233C;
+}
+
 .nav-link {
 	font-weight: 300;
 	font-size: 1.5rem;
@@ -37,7 +41,6 @@ nav .active {
 .home-content .title-font {
 	font-weight: 700;
 	letter-spacing: 0.1em;
-	color: #EF233C;
 }
 
 /* for logo account */
@@ -91,4 +94,11 @@ nav .active {
 
 .desc-port {
 	margin-top: 4%;
+}
+
+.list-port-desc {
+	margin-top: 4%;
+	text-align: center;
+	font-size: 13px;
+	color: darkgrey;
 }

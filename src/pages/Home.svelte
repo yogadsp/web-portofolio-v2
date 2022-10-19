@@ -15,14 +15,14 @@
 <div class="container" in:fade="{{delay: 100, duration: 450}}">
   <div class="row">
     <div class="col-md-12 home-content">
-      <h1 class="title-font">Yoga Dwi Septana</h1>
-      <h4 class="title-font">Informatics Engineering Fresh Graduate</h4>
+      <h1 class="title-font primary-font-color">Yoga Dwi Septana</h1>
+      <h4 class="title-font primary-font-color">Full-Stack Developer</h4>
       <div style="margin-bottom: 10%;"></div>
-      <h5 class="desc-font">I am an informatics engineering student who has just graduated from Institut Teknologi Sumatera in Lampung. My final project entitled is <b>"Prototype of Automatic Trash Bin by Applying Internet of Things (IoT)"</b> where the trash bin can sort organic and inorganic trash and also can send full trash notifications to an Android-based mobile application. I love to learn new things to overcome my curiosity. I am a hard worker who is able to work both as a team and individually. I'm currently looking for job opportunities as a <b>back-end developer or another position that is still related to it</b>.<br>
-      If you want to know more about me, please contact at
-        <b>
-          <a href="mailto:yogaseptana@gmail.com" style="color: black">yogaseptana(at)gmail(dot)com</a></b>.
-      </h5>
+      <h5 class="desc-font">A person who loves to solve problems that can help many people achieve their goals. Experience in various programming languages, tools, or frameworks such as Code Igniter, Laravel, PHP, MySQL, Bootstrap, jQuery, Javascript, and Flutter. With curiosity, I evolved into a Software Developer who is always glad to learn something new. I'm currently looking for job opportunities as a <b>full-stack developer</b> or another position that is still related to it.<br>
+        If you want to know more about me, please contact at
+          <b>
+            <a href="mailto:yogaseptana@gmail.com" style="color: black">yogaseptana(at)gmail(dot)com</a></b>.
+        </h5>
     </div>
   </div>
   <div class="row akun-container">
@@ -38,6 +38,9 @@
       </a>
       <a target="_blank" href="https://profile.codersrank.io/user/yogadsp">
         <img src="assets/img/icon/codersrank.svg" alt="CodersRank Logo" title="CodersRank">
+      </a>
+      <a target="_blank" href="https://exercism.org/profiles/dwiyoga">
+        <img src="assets/img/icon/exercism.png" alt="Exercism Logo" title="Exercism">
       </a>
     </div>
   </div>

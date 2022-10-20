@@ -4,7 +4,7 @@
   let pageName = "Portfolio";
 
   // json file is locate at svelte-project/public/..
-  const url = '../data/dataBase.json';
+  const url = './data/dataBase.json';
   
   // make variable to call async function
   const fetchData = (async () => {
